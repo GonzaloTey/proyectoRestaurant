@@ -15,3 +15,41 @@
         } */
     }
 }
+
+
+//OVERLAY  ::before o ::after
+
+.overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(#000000, .5);
+}
+
+
+//BOTONES
+
+.btn {
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn-white {
+    @extend .btn;
+    @include btn($white, $color-primario-dark);
+
+    &:hover {
+        @include btn($color-primario, $white);
+    }
+}
