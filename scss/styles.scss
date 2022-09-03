@@ -6,8 +6,13 @@
 @import "general/variables";
 @import "general/generales";
 
+//Componentes
+
+@import "general/componentes";
+
 
 //layout
 
 @import "layout/nav";
 @import "layout/header";
+@import "layout/about";

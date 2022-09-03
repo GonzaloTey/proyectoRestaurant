@@ -1,0 +1,17 @@
+//ICONOS
+
+.icons {
+    @include flexbox(row nowrap, space-between, center);
+
+    a {
+        @include flexbox(row nowrap, center, center);
+        background: $color-primario;
+        border-radius: 50%;
+        color: $white;
+        transition: all .5s;
+
+        /* &:hover {
+            background: $color-primario-dark;
+        } */
+    }
+}
