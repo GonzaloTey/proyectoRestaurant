@@ -8,6 +8,10 @@
         .content {
             flex: 0 0 50%;
 
+            h4 {
+                color: $gray600;
+            }
+
             .icons {
                 @include icons(70%, 70px, 70px);
                 font-size: 30px;
