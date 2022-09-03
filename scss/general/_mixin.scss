@@ -1,0 +1,36 @@
+// Funciones Mixin
+
+//Funcion FlexBox
+
+@mixin flexbox($flex-flow, $justify, $align) {
+    display: flex;
+    flex-flow: $flex-flow;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+//Funcion Grid
+
+@mixin grid($col, $row, $gap) {
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+    gap: $gap;
+}
+
+//Botones
+
+@mixin btn($bg, $text) {
+    background: $bg;
+    color: $text;
+}
+
+//Iconos 
+
+@mixin icons($container, $width, $height){
+    width: $container;
+        a {
+            width: $width;
+            height: $height;
+        }
+}
