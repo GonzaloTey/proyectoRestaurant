@@ -1,0 +1,7 @@
+//Estilos Menu
+
+.menu {
+    &__container {
+        @include flexbox(row wrap, space-evenly, center);
+    }
+}
