@@ -286,7 +286,7 @@ h5 {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  background: url(/img/image1.jpg);
+  background: url(../../img/image1.jpg);
   background-size: cover;
   background-position: bottom;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%); }
